@@ -1,12 +1,12 @@
 plugins {
-    kotlin("jvm") version "1.2.71"
+  kotlin("jvm") version "1.2.71"
 }
 
 repositories {
-    jcenter() 
+  jcenter() 
 }
 
 dependencies {
-    implementation(kotlin("stdlib", "1.2.31"))
-    testImplementation("junit:junit:4.12") 
+  implementation(kotlin("stdlib", "1.2.31"))
+  testImplementation("junit:junit:4.12") 
 }
